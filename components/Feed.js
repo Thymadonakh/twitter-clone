@@ -5,7 +5,7 @@ import Post from "./Post";
 
 const Feed = () => {
   return (
-    <div className="w-screen h-screen mb-12 max-w-[40rem] lg:min-w-[40rem]  border-r ml-20 md:ml-40 lg:ml-60">
+    <div className="w-screen h-screen mb-12 max-w-[40rem] lg:min-w-[40rem]  ml-20 md:ml-40 lg:ml-60">
       {/* Navbar */}
       <Navbar />
       {/* Input */}

@@ -11,9 +11,10 @@ import { HiOutlineUser } from "react-icons/hi";
 import { AiOutlineMessage } from "react-icons/ai";
 import { HiCheckBadge } from "react-icons/hi";
 import { BsThreeDots } from "react-icons/bs";
+import { AiFillCheckCircle } from "react-icons/ai";
 
 import Tweet from "../assets/tweet.svg";
-import Profile from "../assets/elon.png";
+import Profile from "../assets/dona.jpg";
 
 const LeftSide = () => {
   return (
@@ -32,7 +33,7 @@ const LeftSide = () => {
                   <RiHome7Fill className="h-6 w-6 lg:h-8 lg:w-8" />
                 </div>
                 <div className="hidden lg:flex">
-                  <p className="pl-4 text-[20px]">Home</p>
+                  <p className="pl-4 text-[20px] font-bold">Home</p>
                 </div>
               </div>
             </li>
@@ -42,7 +43,7 @@ const LeftSide = () => {
                   <BsSearch className="h-6 w-6 lg:h-8 lg:w-8" />
                 </div>
                 <div className="hidden lg:flex">
-                  <p className="pl-4 text-[20px] ">Search</p>
+                  <p className="pl-4 text-[20px] font-light">Search</p>
                 </div>
               </div>
             </li>
@@ -53,7 +54,7 @@ const LeftSide = () => {
                   <RiNotification3Line className="h-6 w-6 lg:h-8 lg:w-8" />
                 </div>
                 <div className="hidden lg:flex">
-                  <p className="pl-4 text-[20px] ">Notification</p>
+                  <p className="pl-4 text-[20px] font-light">Notification</p>
                 </div>
               </div>
             </li>
@@ -64,7 +65,7 @@ const LeftSide = () => {
                   <HiOutlineMail className="h-6 w-6 lg:h-8 lg:w-8" />
                 </div>
                 <div className="hidden lg:flex">
-                  <p className="pl-4 text-[20px] ">Messages</p>
+                  <p className="pl-4 text-[20px] font-light ">Messages</p>
                 </div>
               </div>
             </li>
@@ -75,7 +76,7 @@ const LeftSide = () => {
                   <BiBookmark className="h-6 w-6 lg:h-8 lg:w-8" />
                 </div>
                 <div className="hidden lg:flex">
-                  <p className="pl-4 text-[20px] ">Bookmarks</p>
+                  <p className="pl-4 text-[20px] font-light ">Bookmarks</p>
                 </div>
               </div>
             </li>
@@ -86,7 +87,7 @@ const LeftSide = () => {
                   <RiFileList3Line className="h-6 w-6 lg:h-8 lg:w-8" />
                 </div>
                 <div className="hidden lg:flex">
-                  <p className="pl-4 text-[20px] ">List</p>
+                  <p className="pl-4 text-[20px] font-light ">List</p>
                 </div>
               </div>
             </li>
@@ -97,7 +98,7 @@ const LeftSide = () => {
                   <HiOutlineUser className="h-6 w-6 lg:h-8 lg:w-8" />
                 </div>
                 <div className="hidden lg:flex">
-                  <p className="pl-4 text-[20px] ">Profile</p>
+                  <p className="pl-4 text-[20px] font-light ">Profile</p>
                 </div>
               </div>
             </li>
@@ -108,7 +109,7 @@ const LeftSide = () => {
                   <AiOutlineMessage className="h-6 w-6 lg:h-8 lg:w-8" />
                 </div>
                 <div className="hidden lg:flex">
-                  <p className="pl-4 text-[20px] ">More</p>
+                  <p className="pl-4 text-[20px] font-light ">More</p>
                 </div>
               </div>
             </li>
@@ -128,15 +129,20 @@ const LeftSide = () => {
             <div className="">
               <Image
                 src={Profile}
-                className="rounded-full object-cover w-14 h-14 "
+                className="rounded-full object-cover w-12 h-12 "
               />
             </div>
             <div className="hidden lg:block">
-              <h1 className="font-bold">Elon Musk </h1>
-              <p>@elonmusk</p>
+              <h1 className="font-bold flex items-center gap-3">
+                Thy Madona{" "}
+                <span>
+                  <AiFillCheckCircle className="text-sky-400 w-4 h-4" />
+                </span>
+              </h1>
+              <p className="text-gray-500">@thymadonakh</p>
             </div>
           </div>
-          <div className="hidden lg:block">
+          <div className="hidden ">
             <BsThreeDots className="w-4 h-4" />
           </div>
         </div>

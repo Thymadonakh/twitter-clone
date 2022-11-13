@@ -12,7 +12,7 @@ import { MdIosShare } from "react-icons/md";
 
 const Post = () => {
   return (
-    <div className="pb-8 hover:bg-gray-100 ease-in-out duration-150 rounded-md">
+    <div className="pb-8 hover:bg-gray-100 ease-in-out duration-150 rounded-md border-r">
       {/* Topic Mentioned */}
       <div className="flex">
         <div className=" w-full flex justify-between items-center pt-4 pl-12">

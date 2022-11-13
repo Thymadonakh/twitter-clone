@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import Profile from "../assets/elon.png";
+import Profile from "../assets/dona.jpg";
 import { BsImage } from "react-icons/bs";
 import { AiOutlineFileGif } from "react-icons/ai";
 import { VscSmiley } from "react-icons/vsc";
@@ -10,7 +10,7 @@ import { TbCalendarTime } from "react-icons/tb";
 
 const Input = () => {
   return (
-    <div className="">
+    <div className="border-r ">
       <div className="flex items-center p-4 pt-4 ">
         <div className="">
           <Image
@@ -22,7 +22,7 @@ const Input = () => {
           <input
             type="text"
             placeholder="What's happening?"
-            className="outline-0 text-lg"
+            className="outline-0 text-lg md:text-xl lg:2xl"
           />
         </div>
       </div>
